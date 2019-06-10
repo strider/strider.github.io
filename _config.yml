@@ -1,1 +1,32 @@
+# Site settings
+title: Strider's notes
+description: >
+  This is a blog with random OpenStack, Ansible and Linux related notes so I don't
+  forget things.
+  If you find something inaccurate or that could be fixed, please file a bug
+  report <a href='https://github.com/strider/strider.github.io/issues'>here.</a>
+url: 'http://strider.github.io'
+baseurl: '/'
+
+author: Gaël Chamoulaud
+github_username:  strider
+linkedin_username:  gaelchamoulaud
+
+# Build settings
+paginate: 10
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+plugins:
+- 'jekyll-paginate'
+- 'jekyll-seo-tag'
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png', 'create_post.py', 'templates', 'vendor']
+
 theme: jekyll-theme-hacker
