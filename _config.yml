@@ -1,16 +1,15 @@
 # Site settings
 title: Strider's notes
 description: >
-  This is a blog with random OpenStack, Ansible and Linux related notes so I don't
-  forget things.
+  Random relatives notes about OpenStack, Ansible and Linux.
   If you find something inaccurate or that could be fixed, please file a bug
   report <a href='https://github.com/strider/strider.github.io/issues'>here.</a>
 url: 'http://strider.github.io'
 baseurl: '/'
 
 author: Gaël Chamoulaud
-github_username:  strider
-linkedin_username:  gaelchamoulaud
+github_username: strider
+linkedin_username: gaelchamoulaud
 
 # Build settings
 paginate: 10
